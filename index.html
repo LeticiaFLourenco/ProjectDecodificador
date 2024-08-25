@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Decodificador</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="decodificador-1-desktop">
+      <div class="frame-6">
+        <img class="vector-1" src="img/decodIcon.png" />
+      </div>
+      <div class="container-1">
+        <div class="decodificador">
+          <h1>Decodificador</h1>
+        </div>
+        <div class="digite-seu-texto">
+          <textarea id="input-text" placeholder="Digite o texto aqui..." class="input-text"></textarea>
+
+        </div>
+        <div class="frame-1">
+          <div class="warning">
+            <img class="vector" src="img/warning-danger.png" />
+          </div>
+          <span class="apenas-letras-minsculas-esem-acento">
+            Apenas letras minúsculas e sem acento*
+          </span>
+        </div>
+        <div class="frame-3">
+          <div class="button" onclick="encryptText()">
+            <span class="button-2">
+              Criptografar
+            </span>
+          </div>
+          <div class="button-1" onclick="decryptText()">
+            <span class="button-3">
+              Descriptografar
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="frame-5">
+          <div class='lupa'>
+            <img src="img/sad.png" alt="lupa">
+          </div>
+          <span class="nenhuma-mensagem-encontrada">
+            Nenhuma mensagem encontrada
+          </span>
+          <span class="digite-um-texto-que-voc-deseja-criptografar-ou-descriptografar">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <footer>© Projeto Decodificador - © Created by Letícia Fidelis Lourenço, 2024.</footer>
+
+  </div>
+</body>
+
+</html>

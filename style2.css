@@ -1,0 +1,167 @@
+html body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+}
+.decodificador-2-desktop .frame-3 {
+  display: flex;
+  flex-direction: row;
+  width: 680px;
+  box-sizing: border-box;
+  margin-top: 195px;
+}
+.decodificador-2-desktop .button {
+  border-radius: 24px;
+  background: var(--dark-bluedark-blue-300, #ffffff);
+  margin-right: 24px;
+  transform: translateX(30%) translateY(25%);
+  padding: 24px 0;
+  width: 328px;
+  box-sizing: border-box;
+}
+
+.decodificador-2-desktop .button-2 {
+  border-radius: 24px;
+  border: 1px solid var(--dark-bluedark-blue-300, #313d7c);
+  display: flex;
+  padding: 23px 0;
+  background: #313d7c;
+  width: 336px;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+.decodificador-2-desktop
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas {
+  margin-bottom: 347px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #313d7c;
+}
+.decodificador-2-desktop
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas-1 {
+  margin: 0 0 274px 4.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--graygray-400, #495057);
+}
+.decodificador-2-desktop {
+  background: var(--light-bluelight-blue-500, #757fb2);
+  display: flex;
+  flex-direction: row;
+  padding: 40px 40px 40px 84px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.decodificador-2-desktop .container {
+  margin: 128px 80px 32px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.decodificador-2-desktop .frame-6 {
+  margin: 0 124.9px 896px 0;
+  display: flex;
+  width: 120px;
+  height: 48px;
+  box-sizing: border-box;
+}
+.decodificador-2-desktop .vector {
+  width: 60px;
+  height: 60px;
+}
+.decodificador-2-desktop .frame-1 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.decodificador-2-desktop .warning {
+  margin: 0px 8px 1px 0;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.decodificador-2-desktop .vector-6 {
+  width: 16px;
+  height: 16px;
+}
+.decodificador-2-desktop .alerta {
+  opacity: 0.8;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--graygray-400, #495057);
+}
+.decodificador-2-desktop .container-1 {
+  box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 163px;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 161px 32px 82px 32px;
+  width: 400px;
+  height: fit-content;
+  box-sizing: border-box;
+  min-height: 950px;
+}
+
+.decodificador-2-desktop .button-3 {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  margin-left: 115px;
+  font-size: 16px;
+  color: var(--dark-bluedark-blue-300, #313d7c);
+}
+.decodificador-2-desktop .button-4 {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 100px;
+  color: var(--dark-bluedark-blue-300, #313d7c);
+}
+.decodificador-2-desktop .button-5 {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 135px;
+  color: var(--dark-bluedark-blue-300, #ffffff);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+  width: 1440px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #313d7c;
+  color: white;
+}

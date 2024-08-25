@@ -1,0 +1,203 @@
+html body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.decodificador h1 {
+  font-size: 50px;
+}
+.decodificador-1-desktop .button {
+  border-radius: 24px;
+  background: var(--dark-bluedark-blue-300, #313d7c);
+  margin-right: 24px;
+  display: flex;
+  padding: 24px 0;
+  width: 328px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .button-1 {
+  border-radius: 24px;
+  border: 1px solid var(--dark-bluedark-blue-300, #313d7c);
+  background: #d8dfe8;
+  display: flex;
+  padding: 23px 0;
+  width: 328px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .decodificador {
+  margin-bottom: 93px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+.decodificador-1-desktop .frame-5 {
+  position: relative;
+  display: flex;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .container img {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-60%) translateY(-250%);
+  width: 150px;
+  height: 150px;
+  z-index: 10;
+}
+.decodificador-1-desktop .nenhuma-mensagem-encontrada {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 700;
+  margin-left: 45px;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--graygray-500, #343a40);
+}
+.decodificador-1-desktop .input-text {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 40px 635px 40px;
+  font-size: 32px;
+  line-height: 1.5;
+  color: var(--dark-bluedark-blue-300, #313d7c) !important;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+  resize: none;
+  box-sizing: border-box;
+  background-color: #757fb2;
+  outline: none;
+}
+
+.decodificador-1-desktop .input-text::placeholder {
+  color: #313d7c;
+  opacity: 1;
+}
+
+.decodificador-1-desktop
+  .digite-um-texto-que-voc-deseja-criptografar-ou-descriptografar {
+  position: absolute;
+  left: 0.5px;
+  bottom: 100px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--graygray-400, #495057);
+}
+.decodificador-1-desktop {
+  background: var(--light-bluelight-blue-500, #757fb2);
+  display: flex;
+  flex-direction: row;
+  padding: 40px 40px 40px 76.3px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.decodificador-1-desktop .frame-3 {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 680px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .frame-1 {
+  margin: 0 40px 16px 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .warning {
+  margin: 0px 8px 1px 0;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .vector {
+  width: 16px;
+  height: 16px;
+}
+.decodificador-1-desktop .apenas-letras-minsculas-esem-acento {
+  opacity: 0.8;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--graygray-400, #18191b);
+}
+.decodificador-1-desktop .container {
+  box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15),
+    0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 164px;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  padding: 608px 2.7px 243px 8.7px;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .frame-6 {
+  margin: 0 78.3px 896px 0;
+  display: flex;
+  width: 120px;
+  height: 48px;
+  box-sizing: border-box;
+}
+
+.decodificador-1-desktop .vector-1 {
+  width: 100px;
+  height: 100px;
+}
+.decodificador-1-desktop .container-1 {
+  margin: 20px 80px 32px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.decodificador-1-desktop .button-2 {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  margin-left: 115px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white, #ffffff);
+}
+.decodificador-1-desktop .button-3 {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--dark-bluedark-blue-300, #313d7c);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #313d7c;
+  color: white;
+}

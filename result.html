@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style2.css">
+  <script src="script.js" defer></script>
+  <title>Decodificador</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="decodificador-2-desktop">
+      <div class="frame-6">
+        <img class="vector" src="img/decodIcon.png" />
+      </div>
+      <div class="container">
+        <div class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas">
+          Pronto, sua decodificação
+          <br>
+          foi concluida com sucesso!
+        </div>
+        <div class="frame-1">
+
+
+        </div>
+        <div class="frame-3">
+          <div class="button" onclick="goToIndex()">
+            <span class="button-3">
+              Voltar ao Início
+            </span>
+          </div>
+          <div class="button-1">
+            <span class="button-4">
+
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container-1">
+
+        <div class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.
+        </div>
+        <div class="button-2">
+          <span class="button-5" onclick="copyToClipboard()">
+            Copiar
+          </span>
+        </div>
+      </div>
+    </div>
+    <footer>© Projeto Decodificador - © Created by Letícia Fidelis Lourenço, 2024.</footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+
+        const encodedText = localStorage.getItem('encodedText');
+
+        if (encodedText) {
+
+          document.querySelector('.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas-1').innerText = encodedText;
+        } else {
+
+          document.querySelector('.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-orci-montes-sit-et-diam-risus-scelerisque-vitae-est-tortor-maecenas-nunc-ut-laoreet-eget-diam-mauris-quam-quisque-ut-eget-fringilla-sit-elit-libero-sodales-duis-fames-id-diam-feugiat-aliquet-non-egestas-1').innerText = 'Nenhuma mensagem encontrada.';
+        }
+      });
+    </script>
+
+  </div>
+</body>
+
+</html>
